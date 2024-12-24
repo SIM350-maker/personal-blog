@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simshee's Blog</title>
+    <title>Contact - Simshee's Blog</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Simshee's Blog</h1>
+        <h1>Contact</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,9 +19,20 @@
         </nav>
     </header>
     <div class="container">
-        <h2>About Me</h2>
-        <img src="images/A.jpg" alt="Image A">
-        <p>Hello! I'm Simshee, a full stack developer and a cyber security expert. This is my personal blog where I share my thoughts and experiences.</p>
+        <h2>Contact</h2>
+        <img src="images/C.jpg" alt="Image C">
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
     </div>
     <footer>
         <p>&copy; 2024 Simshee's Blog. All rights reserved.</p>
